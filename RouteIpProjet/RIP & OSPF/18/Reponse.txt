@@ -1,0 +1,1 @@
+R1 ne peut pas pinger R8 car R1 ne sait pas quel route il faut prendre pour joindre R8 

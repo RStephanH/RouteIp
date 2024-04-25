@@ -1,0 +1,95 @@
+Apr 16 14:44:09.407 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 16 14:44:09.408 HYPERVISOR: Started on IP = localhost, TCP port = 52514.
+Apr 16 14:44:09.894 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 16 14:44:09.895 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips 
+Apr 16 14:44:09.895 GENERAL: working_dir=C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips
+Apr 16 14:44:09.897 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips\d0d9fa88-9321-4d24-bc0a-c7be292f98f8 
+Apr 16 14:44:09.898 GENERAL: working_dir=C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips\d0d9fa88-9321-4d24-bc0a-c7be292f98f8
+Apr 16 14:44:09.898 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
+Apr 16 14:44:09.903 VM: VM R5 created.
+Apr 16 14:44:09.905 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5005 
+Apr 16 14:44:09.906 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Apr 16 14:44:09.907 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 14:44:09.908 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Apr 16 14:44:09.910 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Apr 16 14:44:09.912 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Apr 16 14:44:09.914 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 14:44:09.916 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x62cc9118 
+Apr 16 14:44:09.918 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/MSI PREDATOR/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 16 14:44:09.920 HYPERVISOR: exec_cmd: c7200 set_mac_addr R5 ca05.1d54.0000 
+Apr 16 14:44:09.923 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Apr 16 14:44:09.924 HYPERVISOR: exec_cmd: vm set_ram R5 200 
+Apr 16 14:44:09.928 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 14:44:09.928 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-8E 
+Apr 16 14:44:09.931 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5005 
+Apr 16 14:44:14.777 HYPERVISOR: exec_cmd: nio create_udp udp-4f9f09ea-4f6f-4b30-a519-0d9e2b8dab23 10016 127.0.0.1 10017 
+Apr 16 14:44:15.072 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 0 udp-4f9f09ea-4f6f-4b30-a519-0d9e2b8dab23 
+Apr 16 14:44:15.073 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 14:44:15.276 HYPERVISOR: exec_cmd: nio create_udp udp-c5ba0de9-87df-457b-a068-0f305d97d7eb 10003 127.0.0.1 10005 
+Apr 16 14:44:15.284 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 1 udp-c5ba0de9-87df-457b-a068-0f305d97d7eb 
+Apr 16 14:44:15.285 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 15:11:05.363 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 15:11:05.364 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 17:07:37.770 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 17:07:37.770 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 17:50:14.479 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 17:50:14.484 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 18:41:47.205 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Apr 16 18:41:47.207 HYPERVISOR: exec_cmd: vm set_ghost_file R5 C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-200.ghost 
+Apr 16 18:41:47.208 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 18:41:47.217 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg configs\i5_private-config.cfg 
+Apr 16 18:41:47.218 HYPERVISOR: exec_cmd: vm start R5 
+Apr 16 18:42:18.544 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 18:43:18.532 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 18:49:04.941 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 18:49:04.941 HYPERVISOR: exec_cmd: vm stop R5 
+Apr 16 18:49:05.129 VM: VM R5 shutdown.
+Apr 16 18:49:05.129 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 19:06:18.972 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Apr 16 19:06:18.972 HYPERVISOR: exec_cmd: vm set_ghost_file R5 C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-200.ghost 
+Apr 16 19:06:18.972 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 19:06:18.985 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg configs\i5_private-config.cfg 
+Apr 16 19:06:18.989 HYPERVISOR: exec_cmd: vm start R5 
+Apr 16 22:43:19.213 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Apr 16 22:43:19.214 HYPERVISOR: exec_cmd: vm set_ghost_file R5 C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-200.ghost 
+Apr 16 22:43:19.215 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 22:45:16.080 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 22:45:16.080 HYPERVISOR: exec_cmd: vm stop R5 
+Apr 16 22:45:16.215 VM: VM R5 shutdown.
+Apr 16 22:45:16.216 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 22:48:29.259 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Apr 16 22:48:29.262 HYPERVISOR: exec_cmd: vm set_ghost_file R5 C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-200.ghost 
+Apr 16 22:48:29.263 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 22:48:29.270 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg configs\i5_private-config.cfg 
+Apr 16 22:48:29.274 HYPERVISOR: exec_cmd: vm start R5 
+Apr 16 23:01:57.068 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 23:01:57.068 HYPERVISOR: exec_cmd: vm stop R5 
+Apr 16 23:01:57.220 VM: VM R5 shutdown.
+Apr 16 23:01:57.225 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 23:09:57.271 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Apr 16 23:09:57.277 HYPERVISOR: exec_cmd: vm set_ghost_file R5 C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-200.ghost 
+Apr 16 23:09:57.281 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 23:09:57.290 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg configs\i5_private-config.cfg 
+Apr 16 23:09:57.291 HYPERVISOR: exec_cmd: vm start R5 
+Apr 16 23:14:42.165 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 23:14:42.166 HYPERVISOR: exec_cmd: vm stop R5 
+Apr 16 23:14:42.339 VM: VM R5 shutdown.
+Apr 16 23:14:42.340 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 23:42:06.742 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Apr 16 23:42:06.747 HYPERVISOR: exec_cmd: vm set_ghost_file R5 C:\Users\MSI PREDATOR\GNS3\projects\SecondProject\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-200.ghost 
+Apr 16 23:42:06.751 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 23:42:06.760 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg configs\i5_private-config.cfg 
+Apr 16 23:42:06.761 HYPERVISOR: exec_cmd: vm start R5 
+Apr 16 23:56:36.747 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 23:56:36.747 HYPERVISOR: exec_cmd: vm stop R5 
+Apr 16 23:56:36.946 VM: VM R5 shutdown.
+Apr 16 23:56:36.946 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 23:56:42.376 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 23:56:42.381 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 23:56:43.004 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 16 23:56:43.019 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 16 23:56:43.065 HYPERVISOR: exec_cmd: vm delete R5 
+Apr 16 23:56:43.067 VM: VM R5 destroyed.
+Apr 16 23:56:43.101 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 16 23:56:43.444 HYPERVISOR: Stopped.
+Apr 16 23:56:43.444 GENERAL: reset done.

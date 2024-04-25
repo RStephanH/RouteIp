@@ -1,0 +1,1 @@
+Non R1 ne peut pas pinger R8 parce que les adresses ip de l'interface de R8 ne sont pas encore dans la table de routage de R1 et inversement R8 ne peut pas non plus pinger R1 pour la meme raison

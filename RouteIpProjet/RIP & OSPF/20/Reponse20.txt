@@ -1,0 +1,1 @@
+Les routes OSPF n'apparaissent pas sur les routeurs RIP car la commande pour la redistribution est incomplete

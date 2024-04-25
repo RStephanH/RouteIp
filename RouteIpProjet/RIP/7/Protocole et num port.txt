@@ -1,0 +1,2 @@
+Les paquets RIP sont encapsulés dans le protocole UDP.
+Le numéro de port est 520.

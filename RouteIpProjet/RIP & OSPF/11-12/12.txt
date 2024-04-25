@@ -1,0 +1,1 @@
+Non R8 ne peut pas pinger l'interface de R4 connecte a R3 parce que  on a pas ajouter l'adresse reseau de l'interface de R4 connecte a R3 lors de la configuration OSPF de R4

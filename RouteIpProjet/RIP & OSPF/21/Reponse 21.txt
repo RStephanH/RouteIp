@@ -1,0 +1,2 @@
+Afin de corriger le probleme ,on ajoute "metric 1 " a la commande en mode configuration du router rip "redistribute ospf [n processus] " pour obtenir la commande suivante :
+(capture d'ecran)

@@ -1,0 +1,1 @@
+Oui R4 peut pinger l'interface loopback de R8 car on a configure OSPF sur tous les adresses de l'interfaces de R8 ,incluant ainsi l'adresse looback dans la table de routage des routeur dont OSPF est active

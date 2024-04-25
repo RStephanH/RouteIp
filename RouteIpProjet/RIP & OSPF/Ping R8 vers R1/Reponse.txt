@@ -1,0 +1,1 @@
+Le ping ne fonctionne parce qu'il y a aucune reponse venant de R1
